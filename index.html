@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Aboveground</title>
+</head>
+<body>
+    <main>
+        <section id="current-weather">
+            <h4 id="city-name"></h4>
+            <div>
+                <p>current temperature</p>
+                <p id ="current-temp-fah"></p>
+                <p id ="current-temp-cel"></p>
+            </div>
+        </section>
+
+        <form id="yourCity">
+            <label for ="inputCity">City Name</label>
+        <input type ="text" name = "inputCity" id = "inputCity" placeholder ="city">
+        <button id="cityButton" type="submit">Submit</button>
+        </form>
+        <div id="userChoice">
+            <p id="formCity"></p>
+            <p id ="current-temp-fahYours"></p>
+            <p id ="current-temp-celYours"></p>
+            <p id="sunRise"></p>
+            <p id="sunSet"></p>
+        </div>
+    </main>
+    <script src="script.js" type="module"></script>
+</body>
+</html>
